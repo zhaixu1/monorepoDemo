@@ -1,0 +1,25 @@
+{
+  "name": "@vueapps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "app1:dev": "pnpm -F @vueapps/app1 run dev",
+    "app1:build": "pnpm -F @vueapps/app1 run build",
+    "app2:dev": "pnpm -F @vueapps/app2 run dev",
+    "app2:build": "pnpm -F @vueapps/app2 run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.4.27"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vue-tsc": "^2.0.17"
+  }
+}
